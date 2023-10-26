@@ -15,12 +15,7 @@
 
 body {
   background-color: white;
-  height: 100%;
   font-family: Copperplate, Papyrus, fantasy; /* Set font family */
-}
-
-html {
-  height: 100%;
 }
 
 pre {
@@ -327,6 +322,7 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 5%;
 }
 
 .forthInfoBox {
