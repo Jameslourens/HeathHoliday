@@ -15,7 +15,12 @@
 
 body {
   background-color: white;
+  height: 100%;
   font-family: Copperplate, Papyrus, fantasy; /* Set font family */
+}
+
+html {
+  height: 100%;
 }
 
 pre {
@@ -184,7 +189,7 @@ hr {
 
 .parallax2 {
   background-image: url("rhinoend.jpg");
-  min-height: 900px;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -296,7 +301,7 @@ hr {
 
 .parallax3 {
   background-image: url("local3.jpg");
-  min-height: 900px;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -317,11 +322,11 @@ hr {
 
 .parallax4 {
   background-image: url("final.jpg");
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 5%;
 }
 
 .forthInfoBox {
