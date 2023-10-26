@@ -337,6 +337,10 @@ hr {
   margin-bottom: 5%;
 }
 
+.forthInfoBox:hover {
+  box-shadow: 10px 10px 100px rgb(41, 41, 41); /* Increase box shadow size on hover */
+}
+
 .hovering-text4 {
   margin-left: 60%;
   margin-right: 850px;
