@@ -1,0 +1,363 @@
+/* Slide in from left animation */
+@keyframes slideInLeft {
+  /* Start at 0% opacity and -100% translated to the left */
+  0% {
+    opacity: 0%;
+    transform: translateX(-100%);
+  }
+
+  /* End at 100% opacity and 0% translated to the left */
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
+body {
+  background-color: white;
+  font-family: Copperplate, Papyrus, fantasy; /* Set font family */
+}
+
+pre {
+  font-family: Copperplate, Papyrus, fantasy; /* Set font family */
+}
+
+/* Define navigation bar */
+nav {
+  background-color: #ffffff; /* Set background color */
+  height: 75px; /* Set height */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Vertically align items */
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+  width: 1904px;
+  box-shadow: 0px 5px 25px rgb(255, 195, 127); /* Add box shadow */
+}
+
+/* Style the navigation bar links */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-left: 600px;
+}
+
+/* Navigation bar unordered list item anchor tag styles */
+nav ul li a {
+  color: rgb(0, 0, 0); /* Text color is white */
+  text-decoration: none; /* No underline */
+  transition: 0.5s; /* Transition duration is 0.5 seconds */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: x-large;
+}
+
+nav ul li a:hover {
+  background-color: rgb(255, 195, 127);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.book-nav {
+  background-color: rgb(255, 195, 127);
+  margin-left: 150px;
+}
+
+.book-nav:hover {
+  background-color: rgb(253, 168, 70);
+}
+
+.parallax {
+  background-image: url("../media/lions.jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hovering-text {
+  margin-left: 25px;
+  margin-right: 850px;
+  padding-top: 200px;
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+.hovering-text p {
+  font-size: 3.5em;
+  color: white;
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+/* Main container styling */
+.mainContainer {
+  height: 700px; /* Set container height */
+  background-color: white; /* Set background color */
+  justify-content: center; /* Center items horizontally */
+  margin-top: 75px; /* Add top margin */
+  margin-bottom: 75px;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  margin-left: 10%; /* Add left margin */
+  margin-right: 10%; /* Add right margin */
+  transition: 0.5s;
+}
+
+.mainContainer:hover {
+  box-shadow: 10px 10px 100px rgb(41, 41, 41); /* Increase box shadow size on hover */
+}
+
+.leftMainContainer {
+  height: 90%;
+  width: 90%;
+  margin: 5%;
+  display: flex;
+}
+
+.leftMainHeading {
+  height: 90%;
+  width: 50%;
+  margin-top: 5%;
+  padding-top: 10px;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+}
+
+hr {
+  width: 75%;
+}
+
+.leftMainHeading h1 {
+  text-align: center;
+}
+
+.mainContainerLeftFont {
+  font-size: 15px;
+  padding: 5%;
+}
+
+.leftMainContainerPicture {
+  height: 91.75%;
+  width: 50%;
+  margin-top: 5%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  overflow: hidden;
+  transition: 1s;
+}
+
+.secondInfoBox {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  transition: 0.5s;
+  margin-bottom: 5%;
+}
+
+.secondInfoBox:hover {
+  box-shadow: 10px 10px 100px rgb(41, 41, 41); /* Increase box shadow size on hover */
+}
+
+.leftImage img {
+  width: 90%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  transition: 1s;
+  margin-top: 11%;
+  margin-left: 10%;
+}
+
+.secondInfoBoxText {
+  width: 45%;
+  margin: 5%;
+  padding-top: 2%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+}
+
+.rightMainHeading {
+  text-align: center;
+}
+
+.parallax2 {
+  background-image: url("../media/rhinoend.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hovering-text2 {
+  margin-left: 360px;
+  margin-right: 850px;
+  padding-top: 300px;
+}
+
+.hovering-text2 p {
+  font-size: 3.5em;
+  color: white;
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.book-nav2 {
+  width: 250px;
+  height: 60px;
+  background-color: rgb(255, 195, 127);
+  margin-left: 350px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.thirdInfoBox {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  margin: auto;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  transition: 0.5s;
+  margin-top: 5%;
+}
+
+.thirdInfoBox:hover {
+  box-shadow: 10px 10px 100px rgb(41, 41, 41); /* Increase box shadow size on hover */
+}
+
+.thirdInfoBoxText {
+  width: 45%;
+  margin: 5%;
+  padding-top: 2%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+}
+
+.leftImage2 img {
+  width: 90%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  transition: 1s;
+  margin-top: 11%;
+  margin-right: 5%;
+}
+
+.galleryDiv {
+  width: 90%;
+  margin: auto;
+  padding-top: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.galleryDiv h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.galleryHeadingDiv {
+  height: 150px;
+}
+
+.example1 {
+  width: 45%;
+  height: 500px;
+  overflow: hidden;
+  margin-left: 5%;
+}
+
+.example1 img {
+  background-size: contain;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+
+.example2 {
+  width: 45%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.example2 img {
+  background-size: contain;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+
+.galleryPictures {
+  display: flex;
+}
+
+.galleryPictures2 {
+  display: flex;
+}
+
+.parallax3 {
+  background-image: url("../media/local3.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hovering-text3 {
+  margin-left: 360px;
+  margin-right: 850px;
+  padding-top: 300px;
+}
+
+.hovering-text3 p {
+  font-size: 3.5em;
+  color: white;
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.parallax4 {
+  background-image: url("../media/final.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5%;
+}
+
+.forthInfoBox {
+  width: 75%;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  transition: 0.5s;
+  margin-bottom: 5%;
+}
+
+.hovering-text4 {
+  margin-left: 60%;
+  margin-right: 850px;
+  padding-top: 200px;
+}
+
+.hovering-text4 p {
+  font-size: 3.5em;
+  color: white;
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.forthInfoBoxText {
+  width: 75%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+}
+
+.email {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 20px;
+}
