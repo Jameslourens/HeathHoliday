@@ -72,7 +72,7 @@ nav ul li a:hover {
 }
 
 .parallax {
-  background-image: url("lions.jpg");
+  background-image: url("1stPara.jpg");
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -183,7 +183,7 @@ hr {
 }
 
 .parallax2 {
-  background-image: url("rhinoend.jpg");
+  background-image: url("2ndPara.jpg");
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -295,7 +295,7 @@ hr {
 }
 
 .parallax3 {
-  background-image: url("local3.jpg");
+  background-image: url("3rdPara.jpg");
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -316,7 +316,7 @@ hr {
 }
 
 .parallax4 {
-  background-image: url("final.jpg");
+  background-image: url("4thPara.jpg");
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
