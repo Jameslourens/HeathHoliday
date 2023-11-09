@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "LatoRegular";
+  src: url(Lato-Regular.ttf);
+}
+
 /* Slide in from left animation */
 @keyframes slideInLeft {
   /* Start at 0% opacity and -100% translated to the left */
@@ -15,11 +20,11 @@
 
 body {
   background-color: white;
-  font-family: Copperplate, Papyrus, fantasy; /* Set font family */
+  font-family: "LatoRegular", sans-serif;
 }
 
 pre {
-  font-family: Copperplate, Papyrus, fantasy; /* Set font family */
+  font-family: "LatoRegular", sans-serif;
 }
 
 /* Define navigation bar */
@@ -148,15 +153,15 @@ hr {
 }
 
 .secondInfoBox {
-  width: 90%;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  margin: auto;
-  margin-top: 5%;
+  height: 700px; /* Set container height */
+  background-color: white; /* Set background color */
+  justify-content: center; /* Center items horizontally */
+  margin-top: 75px; /* Add top margin */
+  margin-bottom: 75px;
   box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
+  margin-left: 10%; /* Add left margin */
+  margin-right: 10%; /* Add right margin */
   transition: 0.5s;
-  margin-bottom: 5%;
 }
 
 .secondInfoBox:hover {
@@ -165,7 +170,7 @@ hr {
 
 .leftImage img {
   width: 90%;
-  height: 83%;
+  height: 700px;
   box-shadow: 5px 5px 25px rgb(172, 172, 172); /* Add box shadow */
   transition: 1s;
   margin-top: 11%;
@@ -245,11 +250,7 @@ hr {
 }
 
 .galleryDiv {
-  width: 90%;
-  margin: auto;
-  padding-top: 1%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  width: 100%;
 }
 
 .galleryDiv h1 {
